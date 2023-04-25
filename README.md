@@ -5,7 +5,20 @@ PermissionX是一个用于简化Android运行时权限用法的开源库。
 添加如下配置将PermissionX引入到你的项目当中：
 
 ```groovy
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+        allprojects {
+            repositories {
+                ...
+                maven { url 'https://jitpack.io' }
+            }
+        }
+Step 2. Add the dependency
+
 dependencies {
+    ...
     implementation 'com.github.Ablexy:PermissionX:0.0.2'
 }
 ```
