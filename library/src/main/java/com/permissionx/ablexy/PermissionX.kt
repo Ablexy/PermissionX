@@ -1,7 +1,8 @@
-package com.permissionx.guolindev
+package com.permissionx.ablexy
 
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentActivity
+import com.permissionx.guolindev.InvisibleFragment
+import com.permissionx.guolindev.PermissionCallback
 
 /**
  * Basic interfaces for developers to use PermissionX functions.
